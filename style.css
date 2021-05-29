@@ -12,6 +12,10 @@ body{
     color: #00ABAE;
 }
 
+.sub-title{
+    font-size: 32px;
+}
+
 /* 
 *[header]のスタイルシート
 */
@@ -27,4 +31,73 @@ body{
     color: #000;
     text-decoration: none;
     letter-spacing: 1px;
+}
+
+/* 
+*[mainタグ]スタイルシート
+*/
+
+.block-main{
+   text-align: center;
+   margin: 100px 0; 
+}
+
+/* 
+*[Profile]のスタイルシート
+*/
+.item-list{
+    width: 100%;
+    max-width: 348px;
+    margin:0 auto;
+}
+
+.item-list b{
+    display: block;
+    font-size: 24px;
+    font-weight: normal;
+    margin: 20px 0 30px;
+}
+
+.item-list p{
+    font-size: 15px;
+    line-height:normal;
+    text-align: left;
+}
+
+.icon-list{
+    list-style: none;
+    width: 100%;
+    /* max-width: 247px; */
+    /* margin: 30px auto 30px auto; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-list{
+    margin-right: 22px;
+}
+
+.icon-list li{
+    margin: 0;
+    padding:0;
+    padding-top: 20px;
+    display:flex;
+    width:3%;
+    height:3%;
+}
+/* .icon-list li{
+} */
+
+
+.icon-list li:last-child{
+    /* margin-right: 0; */
+    margin-left: 50px;
+}
+
+.icon{
+    width:100%;
+    height:100%;
 }
